@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seconds_for _Time", "Lesson
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seconds_In_Time", "Lesson_2\Seconds_In_Time\Seconds_In_Time.csproj", "{D6BB2EB9-4AE2-4215-B03A-C2327097EFD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookInfo", "Lesson_2\BookInfo\BookInfo.csproj", "{7D1FE6E8-0E42-4D13-BE56-EBFA1DA0D00A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D6BB2EB9-4AE2-4215-B03A-C2327097EFD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6BB2EB9-4AE2-4215-B03A-C2327097EFD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6BB2EB9-4AE2-4215-B03A-C2327097EFD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D1FE6E8-0E42-4D13-BE56-EBFA1DA0D00A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D1FE6E8-0E42-4D13-BE56-EBFA1DA0D00A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D1FE6E8-0E42-4D13-BE56-EBFA1DA0D00A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D1FE6E8-0E42-4D13-BE56-EBFA1DA0D00A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
