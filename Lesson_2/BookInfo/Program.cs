@@ -7,7 +7,7 @@
             string bookName = "Odyssey";
             string author = "Homer";
             string year = "8th century BC";
-            float price = 65f;
+            decimal price = 65.99m;
             string BookInfo = string.Format(" Title = {0}\n Author = {1}\n Written = {2}\n Price = {3}$", bookName, author, year, price);
             Console.WriteLine(BookInfo);
 
