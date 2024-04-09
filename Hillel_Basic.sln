@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookInfo", "Lesson_2\BookIn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digit_Palindrom", "Lesson_3\Digit_Palindrom\Digit_Palindrom.csproj", "{B33F7B52-FF93-4EB5-9F8F-6F8C6F6BC6B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numbers_Square", "Lesson_3\Numbers_Square\Numbers_Square.csproj", "{93210937-CEB8-4483-9EC9-C8764FC2BBDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{B33F7B52-FF93-4EB5-9F8F-6F8C6F6BC6B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B33F7B52-FF93-4EB5-9F8F-6F8C6F6BC6B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B33F7B52-FF93-4EB5-9F8F-6F8C6F6BC6B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93210937-CEB8-4483-9EC9-C8764FC2BBDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93210937-CEB8-4483-9EC9-C8764FC2BBDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93210937-CEB8-4483-9EC9-C8764FC2BBDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93210937-CEB8-4483-9EC9-C8764FC2BBDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
