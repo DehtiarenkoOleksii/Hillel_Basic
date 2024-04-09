@@ -11,9 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Time_In_Seconds", "Time_In_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seconds_for _Time", "Lesson_2\Seconds_for _Time\Seconds_for _Time.csproj", "{11136BF3-81D0-4486-9601-88B20818866F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seconds_In_Time", "Lesson_2\Seconds_In_Time\Seconds_In_Time.csproj", "{D6BB2EB9-4AE2-4215-B03A-C2327097EFD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seconds_In_Time", "Lesson_2\Seconds_In_Time\Seconds_In_Time.csproj", "{D6BB2EB9-4AE2-4215-B03A-C2327097EFD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookInfo", "Lesson_2\BookInfo\BookInfo.csproj", "{7D1FE6E8-0E42-4D13-BE56-EBFA1DA0D00A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookInfo", "Lesson_2\BookInfo\BookInfo.csproj", "{7D1FE6E8-0E42-4D13-BE56-EBFA1DA0D00A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Digit_Palindrom", "Lesson_3\Digit_Palindrom\Digit_Palindrom.csproj", "{B33F7B52-FF93-4EB5-9F8F-6F8C6F6BC6B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{7D1FE6E8-0E42-4D13-BE56-EBFA1DA0D00A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D1FE6E8-0E42-4D13-BE56-EBFA1DA0D00A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D1FE6E8-0E42-4D13-BE56-EBFA1DA0D00A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B33F7B52-FF93-4EB5-9F8F-6F8C6F6BC6B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B33F7B52-FF93-4EB5-9F8F-6F8C6F6BC6B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B33F7B52-FF93-4EB5-9F8F-6F8C6F6BC6B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B33F7B52-FF93-4EB5-9F8F-6F8C6F6BC6B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
