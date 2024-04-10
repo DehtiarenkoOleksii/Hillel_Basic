@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arithmetic_Mean", "Lesson_3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Circle_Area", "Lesson_3\Circle_Area\Circle_Area.csproj", "{DB41B568-ADB7-406E-AE89-4FCE9C281963}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swap_Variables", "Lesson_3\Swap_Variables\Swap_Variables.csproj", "{5D89B559-907C-47DA-9C7D-0AB3BD2D6528}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{DB41B568-ADB7-406E-AE89-4FCE9C281963}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB41B568-ADB7-406E-AE89-4FCE9C281963}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB41B568-ADB7-406E-AE89-4FCE9C281963}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D89B559-907C-47DA-9C7D-0AB3BD2D6528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D89B559-907C-47DA-9C7D-0AB3BD2D6528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D89B559-907C-47DA-9C7D-0AB3BD2D6528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D89B559-907C-47DA-9C7D-0AB3BD2D6528}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
