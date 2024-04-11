@@ -46,7 +46,7 @@
             Console.WriteLine($"num1 = {num7}");
             Console.WriteLine($"num2 = {num8}");
 
-            // Variant_5 Insidious deception of the user )))
+            // Variant_5 Bit Reverse
             BitwiseComplement(ref num9, ref num10);
             Console.WriteLine("\nVariant_5");                     
             Console.WriteLine($"num1 = {num9}");
