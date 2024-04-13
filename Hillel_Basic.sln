@@ -7,10 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstApp", "FirstApp\FirstA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount_Amount", "Lesson_2\Discount_Amount\Discount_Amount.csproj", "{34CB02B3-0727-487D-9290-5E0C55442611}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Time_In_Seconds", "Time_In_Seconds\Time_In_Seconds.csproj", "{F079B349-685F-451F-B78A-15EA7EA0BF1F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seconds_for _Time", "Lesson_2\Seconds_for _Time\Seconds_for _Time.csproj", "{11136BF3-81D0-4486-9601-88B20818866F}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seconds_In_Time", "Lesson_2\Seconds_In_Time\Seconds_In_Time.csproj", "{D6BB2EB9-4AE2-4215-B03A-C2327097EFD0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookInfo", "Lesson_2\BookInfo\BookInfo.csproj", "{7D1FE6E8-0E42-4D13-BE56-EBFA1DA0D00A}"
@@ -21,11 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Numbers_Square", "Lesson_3\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mixed_Digits", "Lesson_3\Mixed_Digits\Mixed_Digits.csproj", "{53AAD5BE-61FC-408F-841B-3CE033D77FA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arithmetic_Mean", "Lesson_3\Arithmetic_Mean\Arithmetic_Mean.csproj", "{9592B0B4-21BA-49AB-9305-AFA3D38EC6CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arithmetic_Mean", "Lesson_3\Arithmetic_Mean\Arithmetic_Mean.csproj", "{9592B0B4-21BA-49AB-9305-AFA3D38EC6CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Circle_Area", "Lesson_3\Circle_Area\Circle_Area.csproj", "{DB41B568-ADB7-406E-AE89-4FCE9C281963}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Circle_Area", "Lesson_3\Circle_Area\Circle_Area.csproj", "{DB41B568-ADB7-406E-AE89-4FCE9C281963}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swap_Variables", "Lesson_3\Swap_Variables\Swap_Variables.csproj", "{5D89B559-907C-47DA-9C7D-0AB3BD2D6528}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swap_Variables", "Lesson_3\Swap_Variables\Swap_Variables.csproj", "{5D89B559-907C-47DA-9C7D-0AB3BD2D6528}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Number_Comparison", "Lesson_4\Number_Comparison\Number_Comparison.csproj", "{DE240391-E69E-4D3C-8760-1ACDDF89A72B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,14 +39,6 @@ Global
 		{34CB02B3-0727-487D-9290-5E0C55442611}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34CB02B3-0727-487D-9290-5E0C55442611}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34CB02B3-0727-487D-9290-5E0C55442611}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F079B349-685F-451F-B78A-15EA7EA0BF1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F079B349-685F-451F-B78A-15EA7EA0BF1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F079B349-685F-451F-B78A-15EA7EA0BF1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F079B349-685F-451F-B78A-15EA7EA0BF1F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{11136BF3-81D0-4486-9601-88B20818866F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{11136BF3-81D0-4486-9601-88B20818866F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{11136BF3-81D0-4486-9601-88B20818866F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{11136BF3-81D0-4486-9601-88B20818866F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D6BB2EB9-4AE2-4215-B03A-C2327097EFD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D6BB2EB9-4AE2-4215-B03A-C2327097EFD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6BB2EB9-4AE2-4215-B03A-C2327097EFD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -81,6 +71,10 @@ Global
 		{5D89B559-907C-47DA-9C7D-0AB3BD2D6528}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D89B559-907C-47DA-9C7D-0AB3BD2D6528}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D89B559-907C-47DA-9C7D-0AB3BD2D6528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE240391-E69E-4D3C-8760-1ACDDF89A72B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE240391-E69E-4D3C-8760-1ACDDF89A72B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE240391-E69E-4D3C-8760-1ACDDF89A72B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE240391-E69E-4D3C-8760-1ACDDF89A72B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
