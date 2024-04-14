@@ -25,10 +25,12 @@
 
             // Get Descriminant value
             int descriminant = GetDescriminant(a, b, c);
+
             //Solving the equation
-            string answer = GetEquationAnswer(a,b, descriminant);
+            string answer = GetEquationAnswer(a, b, descriminant);
+
             //Print
-            PrintResultOfCheck( descriminant, answer);
+            PrintResultOfCheck(descriminant, answer);
 
             //Delay
             Console.ReadKey();
@@ -47,18 +49,16 @@
         }
         private static string GetEquationAnswer(int a, int b, int d)
         {
-
-          
-            if (d < 0) 
+            if (d < 0)
             {
                 return "не має коренів";
             }
-            else if (d == 0) 
+            else if (d == 0)
             {
-                double x = -b / (2 * a)  ;
+                double x = -b / (2 * a);
                 return $"має один корінь х1 = {x}";
             }
-            else 
+            else
             {
                 double x1 = (-b - Math.Sqrt(d)) / (2 * a);
                 double x2 = (-b + Math.Sqrt(d)) / (2 * a);
