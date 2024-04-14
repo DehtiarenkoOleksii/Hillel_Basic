@@ -27,48 +27,48 @@ namespace Numers_Mulitiplicity
 
     static string Mulitiplicity(int number) 
         {
-            //// Variant1 Mathematic if
-            //if (number % 3 == 0 || number % 5 == 0) 
-            //{
-            //    if (number % 15 == 0)
-            //    {
-            //        return "FizzBuzz";
-            //    }
-            //    else
-            //    {
-            //        if (number % 3 == 0)
-            //            return "Fizz";
-            //        else
-            //            return "Buzz";
-            //    }
-            //}
-            //else 
-            //{
-            //    return "Entered number is not mulitiplicity by 3,5,15";
-            //}
-
-            //// Variant1 Mathematic else if
-            //if (number % 3 == 0) 
-            //{
-            //    if (number % 5 == 0)
-            //        return "FizzBuzz";
-            //    else
-            //        return "Fizz";
-            //}
-            //else if (number % 5 == 0)
-            //{
-            //    if (number % 5 == 0)
-            //        return "FizzBuzz";
-            //    else
-            //        return "Buzz";
-            //}
-            //return "Entered number is not mulitiplicity by 3,5,15";
-
-
-            // Variant 3 The Best aproach for reqs))) message for case when entered number is not mulitiplicity by 3,5,15 was absent in requirements so it's absent here
             string result;
             if (number > 0 && number < 101)
             {
+                //// Variant1 Mathematic if
+                //if (number % 3 == 0 || number % 5 == 0) 
+                //{
+                //    if (number % 15 == 0)
+                //    {
+                //        return "FizzBuzz";
+                //    }
+                //    else
+                //    {
+                //        if (number % 3 == 0)
+                //            return "Fizz";
+                //        else
+                //            return "Buzz";
+                //    }
+                //}
+                //else 
+                //{
+                //    return "Entered number is not mulitiplicity by 3,5,15";
+                //}
+
+                //// Variant1 Mathematic else if
+                //if (number % 3 == 0) 
+                //{
+                //    if (number % 5 == 0)
+                //        return "FizzBuzz";
+                //    else
+                //        return "Fizz";
+                //}
+                //else if (number % 5 == 0)
+                //{
+                //    if (number % 5 == 0)
+                //        return "FizzBuzz";
+                //    else
+                //        return "Buzz";
+                //}
+                //return "Entered number is not mulitiplicity by 3,5,15";
+
+
+                // Variant 3 The Best aproach for reqs))) message for case when entered number is not mulitiplicity by 3,5,15 was absent in requirements so it's absent here
                 if (number % 3 == 0)
                     result = "Fizz";
                 else
@@ -76,7 +76,11 @@ namespace Numers_Mulitiplicity
                 if (number % 5 == 0)
                     result = result + "Buzz";
                 return result;
+
+
             }
+
+
             else
             {
                 return result = $"Entered number \"{number}\" is not in range 1:100";

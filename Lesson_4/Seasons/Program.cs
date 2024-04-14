@@ -8,7 +8,7 @@
         static void Main(string[] args)
         {
             Console.OutputEncoding = System.Text.Encoding.Unicode;
-            Console.Write("Enter number of the month : ");
+            Console.Write("Введіть номер місяця : ");
             int month = Parse(Console.ReadLine());
             string season = GetSeason(month);
             Console.WriteLine(season);
