@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seasons", "Lesson_4\Seasons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numers_Mulitiplicity", "Lesson_4\Numers_Mulitiplicity\Numers_Mulitiplicity.csproj", "{18DAACCA-2214-47BF-849E-1FB776AB3576}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quadratic_Equation", "Lesson_4\Quadratic_Equation\Quadratic_Equation.csproj", "{E892F020-17E6-4BE4-80BF-E1E901654E44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{18DAACCA-2214-47BF-849E-1FB776AB3576}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18DAACCA-2214-47BF-849E-1FB776AB3576}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18DAACCA-2214-47BF-849E-1FB776AB3576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E892F020-17E6-4BE4-80BF-E1E901654E44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E892F020-17E6-4BE4-80BF-E1E901654E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E892F020-17E6-4BE4-80BF-E1E901654E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E892F020-17E6-4BE4-80BF-E1E901654E44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
