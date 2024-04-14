@@ -33,6 +33,7 @@
             //Delay
             Console.ReadKey();
         }
+        // Using int in range 0:100 for beaty show and fast re-check with third-party services
         private static int GenerateRandomNumber(int limit)
         {
             Random rand = new Random();
