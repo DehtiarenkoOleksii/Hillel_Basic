@@ -6,6 +6,7 @@
         // Числа будуть порівнюватися з наступним виведенням в консоль результату цього порівняння (чи рівні значення, а якщо ні, яке число більше/менше).
         static void Main(string[] args)
         {
+            Console.OutputEncoding = System.Text.Encoding.Unicode;
             Console.Write("Enter number 1 : ");
             int number1 = Parse(Console.ReadLine());
             Console.Write("Enter number 2 : ");
@@ -40,7 +41,7 @@
             //}
 
             // Ternar operator
-            return number1 == number2 ? $"{number1} = {number2}" : (number1 > number2 ? $"{number1} > {number2}" : $"{number1} < {number2}");
+            return number1 == number2 ? $"Числа {number1} і {number2} - рівні" : (number1 > number2 ? $"{number1} більше ніж {number2}" : $"{number1} менше ніж {number2}");
         }
 
 
