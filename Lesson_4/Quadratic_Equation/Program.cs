@@ -28,7 +28,10 @@
             //Solving the equation
             string answer = GetEquationAnswer(a,b, descriminant);
             //Print
-            PrintResultOfCheck( descriminant, answer);  
+            PrintResultOfCheck( descriminant, answer);
+
+            //Delay
+            Console.ReadKey();
         }
         private static int GenerateRandomNumber(int limit)
         {
