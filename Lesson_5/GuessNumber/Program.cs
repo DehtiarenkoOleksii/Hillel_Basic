@@ -1,6 +1,8 @@
 ﻿namespace GuessNumber
 {
     internal class Program
+    //  Програма загадує число від 1 до 146 (привіт, Random). Користувач намагається вгадати його.
+    //  У разі неправильної відповіді програма підказує «більше» або «менше»
     {
         static void Main(string[] args)
         {
