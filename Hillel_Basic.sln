@@ -23,13 +23,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Circle_Area", "Lesson_3\Cir
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swap_Variables", "Lesson_3\Swap_Variables\Swap_Variables.csproj", "{5D89B559-907C-47DA-9C7D-0AB3BD2D6528}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Number_Comparison", "Lesson_4\Number_Comparison\Number_Comparison.csproj", "{DE240391-E69E-4D3C-8760-1ACDDF89A72B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Number_Comparison", "Lesson_4\Number_Comparison\Number_Comparison.csproj", "{DE240391-E69E-4D3C-8760-1ACDDF89A72B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seasons", "Lesson_4\Seasons\Seasons.csproj", "{CB7E07EB-2FEB-479D-A219-CE73B29165A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seasons", "Lesson_4\Seasons\Seasons.csproj", "{CB7E07EB-2FEB-479D-A219-CE73B29165A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numers_Mulitiplicity", "Lesson_4\Numers_Mulitiplicity\Numers_Mulitiplicity.csproj", "{18DAACCA-2214-47BF-849E-1FB776AB3576}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Numers_Mulitiplicity", "Lesson_4\Numers_Mulitiplicity\Numers_Mulitiplicity.csproj", "{18DAACCA-2214-47BF-849E-1FB776AB3576}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quadratic_Equation", "Lesson_4\Quadratic_Equation\Quadratic_Equation.csproj", "{E892F020-17E6-4BE4-80BF-E1E901654E44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quadratic_Equation", "Lesson_4\Quadratic_Equation\Quadratic_Equation.csproj", "{E892F020-17E6-4BE4-80BF-E1E901654E44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Password_Validation", "Lesson_5\Password_Validation\Password_Validation.csproj", "{F6387236-10D6-4764-A9C1-09E3625B3FC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{E892F020-17E6-4BE4-80BF-E1E901654E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E892F020-17E6-4BE4-80BF-E1E901654E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E892F020-17E6-4BE4-80BF-E1E901654E44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6387236-10D6-4764-A9C1-09E3625B3FC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6387236-10D6-4764-A9C1-09E3625B3FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6387236-10D6-4764-A9C1-09E3625B3FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6387236-10D6-4764-A9C1-09E3625B3FC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
