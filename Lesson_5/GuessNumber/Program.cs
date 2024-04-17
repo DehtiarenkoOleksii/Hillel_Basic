@@ -7,7 +7,9 @@
         static void Main(string[] args)
         {
             Console.OutputEncoding = System.Text.Encoding.Unicode;
+            //generate random number for mysteriousNumber
             int mysteriousNumber = GenerateRandomNumber(147);
+            // Comparing entered number with mysteriousNumber until thay will be equal
             CompareNumbers(mysteriousNumber);
             
         }
