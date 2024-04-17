@@ -8,9 +8,10 @@ namespace Numers_Mulitiplicity
         // Якщо число кратно п'ятнадцяти, програма повинна виводити слово FizzBuzz. Завдання може здатися очевидним, але потрібно отримати найбільш просте та красиве рішення.
         static void Main(string[] args)
         {
-            Console.Write("Enter number from 1 to 100 : ");
-            int number = Parse(Console.ReadLine());
-
+ 
+            int number = 0;
+            // validation until number will be in range 1:100
+            Validaion(number);
             // Checking mulitiplicity by 3,5,15
             string mulitiplicityResult = Mulitiplicity(number);
             Console.WriteLine(mulitiplicityResult);
@@ -22,13 +23,27 @@ namespace Numers_Mulitiplicity
         {           
             return int.Parse(input);
         }
+        static void Validaion(int number)
+        {
+            //int number;
+            do
+            {
+                Console.Write("Enter number from 1 to 100 : ");
+                number = Parse(Console.ReadLine());
+                if (number < 0 || number > 100)
+                {
+                    Console.WriteLine($"Entered number \"{number}\" is not in range 1:100");
+                }
+            }
+                     
+            while (number < 0 || number > 100);
+        }
        
 
-    static string Mulitiplicity(int number) 
+        static string Mulitiplicity(int number) 
         {
             string result;
-            if (number > 0 && number < 101)
-            {
+
                 //// Variant1 Mathematic if
                 //if (number % 3 == 0 || number % 5 == 0) 
                 //{
@@ -73,17 +88,8 @@ namespace Numers_Mulitiplicity
                 else
                     result = "";
                 if (number % 5 == 0)
-                    result = result + "Buzz";
+                    result += "Buzz";
                 return result;
-
-
-            }
-
-
-            else
-            {
-                return result = $"Entered number \"{number}\" is not in range 1:100";
-            }
         }
     }
 }
