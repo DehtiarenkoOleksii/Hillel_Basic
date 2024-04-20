@@ -31,11 +31,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Numers_Mulitiplicity", "Les
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quadratic_Equation", "Lesson_4\Quadratic_Equation\Quadratic_Equation.csproj", "{E892F020-17E6-4BE4-80BF-E1E901654E44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Password_Validation", "Lesson_5\Password_Validation\Password_Validation.csproj", "{F6387236-10D6-4764-A9C1-09E3625B3FC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Password_Validation", "Lesson_5\Password_Validation\Password_Validation.csproj", "{F6387236-10D6-4764-A9C1-09E3625B3FC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessNumber", "Lesson_5\GuessNumber\GuessNumber.csproj", "{801994AB-5EC0-4CB6-AD80-46D3AFEF1BA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuessNumber", "Lesson_5\GuessNumber\GuessNumber.csproj", "{801994AB-5EC0-4CB6-AD80-46D3AFEF1BA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiplication_Table", "Lesson_5\Multiplication_Table\Multiplication_Table.csproj", "{32F46AF2-321B-4137-B75E-715F889E20E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multiplication_Table", "Lesson_5\Multiplication_Table\Multiplication_Table.csproj", "{32F46AF2-321B-4137-B75E-715F889E20E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Positive_Numbers", "Lesson_6\Positive_Numbers\Positive_Numbers.csproj", "{81AED4A5-60CE-42A5-94A3-686F70358787}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{32F46AF2-321B-4137-B75E-715F889E20E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32F46AF2-321B-4137-B75E-715F889E20E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32F46AF2-321B-4137-B75E-715F889E20E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81AED4A5-60CE-42A5-94A3-686F70358787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81AED4A5-60CE-42A5-94A3-686F70358787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81AED4A5-60CE-42A5-94A3-686F70358787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81AED4A5-60CE-42A5-94A3-686F70358787}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
