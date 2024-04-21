@@ -34,6 +34,9 @@
             Console.Write("=> "); // separator
             Print(ReverseArray(originalArray));
             #endregion
+
+            //Delay
+            Console.ReadLine();
         }
         private static int GenerateRandomNumber(int min, int max)
         {

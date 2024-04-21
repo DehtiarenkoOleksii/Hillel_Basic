@@ -9,6 +9,8 @@
         static void Main(string[] args)
         {
             int[] originalArray = new int[10];
+            int[] tempArray = new int[originalArray.Length + 1];
+            tempArray[0] = GenerateRandomNumber(-100, 101);
             // Fill array with random numbers
             FillArray(originalArray);
             // Print originalArray
@@ -16,20 +18,23 @@
             Console.WriteLine("Variant 1");
             Print(originalArray);
             Console.Write("=> "); // separator
-            Print(CopyToTempArray(originalArray));
+            Print(CopyToTempArray(originalArray, tempArray));
             #endregion
             #region Variant via CopyTo method to temp array
             Console.WriteLine("\nVariant 2");
             Print(originalArray);
             Console.Write("=> "); // separator
-            Print(LoopForFilling(originalArray));
+            Print(LoopForFilling(originalArray, tempArray));
             #endregion
             #region Variant via Resize
             Console.WriteLine("\nVariant 3");
             Print(originalArray);
             Console.Write("=> "); // separator
             Print(ResizeArray(originalArray));
-            # endregion
+            #endregion
+
+            //Delay
+            Console.ReadLine();
         }
         private static int GenerateRandomNumber(int min, int max)
         {
@@ -55,18 +60,17 @@
             }
 
         }
-        private static int[] CopyToTempArray(int[] originalArray)
+        private static int[] CopyToTempArray(int[] originalArray, int[] tempArray)
         {
-            int[] tempArray = new int[originalArray.Length + 1];
-            tempArray[0] = GenerateRandomNumber(-100, 101);
+            // Remember that first element in tempArray has beed already filled
             originalArray.CopyTo(tempArray, 1);
             originalArray = tempArray;
             return originalArray;
         }
-        private static int[] LoopForFilling(int[] originalArray)
+        private static int[] LoopForFilling(int[] originalArray, int[] tempArray)
         {
-            int[] tempArray = new int[originalArray.Length + 1];
-            tempArray[0] = GenerateRandomNumber(-100, 101);
+
+            // Remember that first element in tempArray has beed already filled
             for (int i = 1; i < tempArray.Length; i++)
             {
                 tempArray[i] = originalArray[i - 1];

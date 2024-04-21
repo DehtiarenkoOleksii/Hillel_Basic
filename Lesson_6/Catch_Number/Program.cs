@@ -19,7 +19,10 @@ namespace Catch_Number
             Print(originalArray);
             // Print all elements of the array until the element -1 is encountered
             CatchNumber(originalArray);
-;
+
+            //Delay
+            Console.ReadLine();
+            
         }
         private static int GenerateRandomNumber(int min, int max)
         {
