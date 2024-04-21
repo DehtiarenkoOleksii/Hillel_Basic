@@ -68,7 +68,7 @@
             int[] secondArray = new int[originalArray.Length];
             for (int i = 0 ; i < originalArray.Length; i++)
             {
-                secondArray[i] = originalArray[originalArray.Length - i-1];
+                secondArray[i] = originalArray[originalArray.Length - i - 1];
                
             }
             return secondArray;
@@ -78,7 +78,7 @@
             int buffer;
             for (int i = 0; i < originalArray.Length / 2; i++)
             {
-                buffer = originalArray[originalArray.Length - i -1];
+                buffer = originalArray[originalArray.Length - i - 1];
                 originalArray[originalArray.Length - i - 1] = originalArray[i];
                 originalArray[i] = buffer;
             }
