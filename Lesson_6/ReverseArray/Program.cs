@@ -2,7 +2,7 @@
 {
     internal class Program
     {
-    #region Task2
+    #region Task_2
         //Написати програму для інверсії масиву, тобто перевороту його у зворотному порядку.
         //В цьому завданні недостатньо просто вивести елементи масиву у зворотному порядку. 
         //Ідеально написати 2 способами (* вища оцінка буде) - через новий масив та переписавши значення заданного масиву.
@@ -10,10 +10,10 @@
     #endregion
     static void Main(string[] args)
         {
-            int[] originalArray = new int[9];
+            int[] originalArray = new int[10];
             // Fill array with random numbers
             FillArray(originalArray);
-            // Print full array with random numbers
+            // Print full array with random numbers and his inversed version
 
             #region Variant with second array
             Console.WriteLine("Variant 1");
