@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GuessNumber", "Lesson_5\Gue
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multiplication_Table", "Lesson_5\Multiplication_Table\Multiplication_Table.csproj", "{32F46AF2-321B-4137-B75E-715F889E20E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Positive_Numbers", "Lesson_6\Positive_Numbers\Positive_Numbers.csproj", "{81AED4A5-60CE-42A5-94A3-686F70358787}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Positive_Numbers", "Lesson_6\Positive_Numbers\Positive_Numbers.csproj", "{81AED4A5-60CE-42A5-94A3-686F70358787}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseArray", "Lesson_6\ReverseArray\ReverseArray.csproj", "{42BD3571-C63E-41EE-8401-0C972FA458A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{81AED4A5-60CE-42A5-94A3-686F70358787}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81AED4A5-60CE-42A5-94A3-686F70358787}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81AED4A5-60CE-42A5-94A3-686F70358787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42BD3571-C63E-41EE-8401-0C972FA458A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42BD3571-C63E-41EE-8401-0C972FA458A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42BD3571-C63E-41EE-8401-0C972FA458A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42BD3571-C63E-41EE-8401-0C972FA458A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

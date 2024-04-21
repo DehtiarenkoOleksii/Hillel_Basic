@@ -31,7 +31,7 @@ namespace Positive_Numbers
 
         }
 
-        // use count and print positive numbers in one method  in cause of economic loops
+        // use count and print positive numbers in one method in cause of economic loops and for optimization
         private static void PrintPositiviePart(int[] mixedArray)
         {
             int countPositiveNumbers = 0;
@@ -56,7 +56,7 @@ namespace Positive_Numbers
            
             for (int i = 0; i < mixedArray.Length; i++)
             {
-                int number = GenerateRandomNumber(-100, 100);
+                int number = GenerateRandomNumber(-100, 101);
                 mixedArray[i] = number; // set
             }
             return mixedArray;
