@@ -21,12 +21,14 @@
             Console.Write("=> "); // separator
             Print(SecondArray(originalArray));
             #endregion
+
             #region Variant with inverse array
             Console.WriteLine("\nVariant 2");
             Print(originalArray);
             Console.Write("=> "); // separator
             Print(InverseArray(originalArray));
             #endregion
+
             #region The simplest variant via Reverse method of array class)))
             // Here will be reverse for already reversed array in Variant 2
             Console.WriteLine("\nVariant 3");

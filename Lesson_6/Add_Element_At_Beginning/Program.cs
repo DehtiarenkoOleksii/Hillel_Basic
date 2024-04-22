@@ -13,19 +13,22 @@
             tempArray[0] = GenerateRandomNumber(-100, 101);
             // Fill array with random numbers
             FillArray(originalArray);
-            // Print originalArray
+            
+
             #region Variant via CopyTo method to temp array
             Console.WriteLine("Variant 1");
             Print(originalArray);
             Console.Write("=> "); // separator
             Print(CopyToTempArray(originalArray, tempArray));
             #endregion
+
             #region Variant via CopyTo method to temp array
             Console.WriteLine("\nVariant 2");
             Print(originalArray);
             Console.Write("=> "); // separator
             Print(LoopForFilling(originalArray, tempArray));
             #endregion
+
             #region Variant via Resize
             Console.WriteLine("\nVariant 3");
             Print(originalArray);
