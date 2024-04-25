@@ -41,9 +41,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Positive_Numbers", "Lesson_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseArray", "Lesson_6\ReverseArray\ReverseArray.csproj", "{42BD3571-C63E-41EE-8401-0C972FA458A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Add_Element_At_Beginning", "Lesson_6\Add_Element_At_Beginning\Add_Element_At_Beginning.csproj", "{0730F8AE-B1F6-40B5-962F-AF22C7ECB51B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Add_Element_At_Beginning", "Lesson_6\Add_Element_At_Beginning\Add_Element_At_Beginning.csproj", "{0730F8AE-B1F6-40B5-962F-AF22C7ECB51B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catch_Number", "Lesson_6\Catch_Number\Catch_Number.csproj", "{38492199-ED34-404E-82E3-2A74BC192507}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catch_Number", "Lesson_6\Catch_Number\Catch_Number.csproj", "{38492199-ED34-404E-82E3-2A74BC192507}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student_Menu", "Lesson_7\Student_Menu\Student_Menu.csproj", "{58EF985F-FE16-48D0-99FA-2812BA5EFE7E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{38492199-ED34-404E-82E3-2A74BC192507}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38492199-ED34-404E-82E3-2A74BC192507}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38492199-ED34-404E-82E3-2A74BC192507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58EF985F-FE16-48D0-99FA-2812BA5EFE7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58EF985F-FE16-48D0-99FA-2812BA5EFE7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58EF985F-FE16-48D0-99FA-2812BA5EFE7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58EF985F-FE16-48D0-99FA-2812BA5EFE7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
