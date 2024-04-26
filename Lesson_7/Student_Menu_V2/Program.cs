@@ -1,6 +1,6 @@
 ﻿
 
-namespace Student_Menu
+namespace Student_Menu_V2
 {
     internal class Program
     {
@@ -10,119 +10,79 @@ namespace Student_Menu
         {
             // initialize array of arrays with random length and random values
             marks = InitializeData();
-            OpenMainMenu();
+            OpenMenu();
 
         }
         // Main menu
-        static void OpenMainMenu()
+        static void OpenMenu()
         {
             while (true)
             {
-                int input = MultipleChoice(true, new MainMenu());
-                switch ((MainMenu)input)
+                int mainInput = MultipleChoice(true, new MainMenu());
+
+                switch ((MainMenu)mainInput)
                 {
                     case MainMenu.Display_Marks:
-                        OpenDisplayMenu();
-                        break;
                     case MainMenu.Average_Mark:
-                        OpenAverageMenu();
-                        break;
                     case MainMenu.Set_Mark:
-                        OpenSetMenu();
-                        break;
+                        {
+                            // Open sub-menu with sujects. What sub-menu will do , it depemds on previous choice
+                            OpenSubMenu((MainMenu)mainInput);
+                            break;
+                        }
                     case MainMenu.Exit:
-                        Environment.Exit(0);
-                        break;
+                        {
+                            Environment.Exit(0);
+                            break;
+                        }
                     default:
                         break;
                 }
+                // Need to clear consile after operation
                 Console.Clear();
             }
         }
-        // sub-menu which display all marks depends on subject
-        static void OpenDisplayMenu()
+        static void OpenSubMenu(MainMenu menu)
         {
             while (true)
             {
-                int input = MultipleChoice(true, new SubMenu());
-                switch ((SubMenu)input)
+                // Display sub-menu and wait for user actions
+                int subInput = MultipleChoice(true, new SubMenu());
+
+                // Обработка выбора пользователя
+                switch ((SubMenu)subInput)
                 {
                     case SubMenu.Back:
-                        OpenMainMenu();
-                        break;
+                        {
+                            // go to MainMenu -> an we in OpenMenu method again)
+                            return;
+                        }
                     case SubMenu.Math:
-                        PrintMarks("Math", marks[0]);
-                        break;
                     case SubMenu.History:
-                        PrintMarks("History", marks[1]);
-                        break;
                     case SubMenu.Language:
-                        PrintMarks("Language", marks[2]);
-                        break;
+                        {
+
+                            // handling for user choice
+                            if (menu == MainMenu.Display_Marks)
+                            {
+                                PrintMarks(((SubMenu)subInput).ToString(), marks[subInput - 1]);
+                            }
+                            else if (menu == MainMenu.Average_Mark)
+                            {
+                                PrintAverage(((SubMenu)subInput).ToString(), marks[subInput - 1]);
+                            }
+                            else if (menu == MainMenu.Set_Mark)
+                            {
+                                Console.Write($"\nEnter number for {((SubMenu)subInput).ToString()}: ");
+                                marks[subInput - 1] = SetMark(marks[subInput - 1]);
+                            }
+                            break;
+                        }
                     default:
                         break;
                 }
+                // Delay
                 Console.ReadLine();
-                Console.Clear();
-            }
-        }
-        // sub-menu which calculate average from all marks depends on subject
-        static void OpenAverageMenu()
-        {
-            while (true)
-            {
-                int input = MultipleChoice(true, new SubMenu());
-                switch ((SubMenu)input)
-                {
-                    case SubMenu.Back:
-                        OpenMainMenu();
-                        return;
-                    case SubMenu.Math:
-                        PrintAverage("Math", marks[0]);
-                        break;
-                    case SubMenu.History:
-                        PrintAverage("History", marks[1]);
-                        break;
-                    case SubMenu.Language:
-                        PrintAverage("Language", marks[2]);
-                        break;
-                    default:
-                        break;
-                }
-                Console.ReadLine();
-                Console.Clear();
-            }
-        }
-        // sub-menu where you can add mark for anu subject
-        static void OpenSetMenu()
-        {
-            while (true)
-            {
-                int input = MultipleChoice(true, new SubMenu());
-                switch ((SubMenu)input)
-                {
-                    case SubMenu.Back:
-                        OpenMainMenu();
-                        return;
-                    case SubMenu.Math:
-                        Console.Write("\nEnter number: ");
-                        marks[0] = SetMark(marks[0]);
-
-                        break;
-                    case SubMenu.History:
-                        Console.Write("\nEnter number: ");
-                        marks[1] = SetMark(marks[1]);
-
-                        break;
-                    case SubMenu.Language:
-                        Console.Write("\nEnter number: ");
-                        marks[2] = SetMark(marks[2]);
-
-                        break;
-                    default:
-                        break;
-                }
-                Console.ReadLine(); // Specially added for show input
                 Console.Clear();
             }
         }
@@ -269,7 +229,7 @@ namespace Student_Menu
                     case ConsoleKey.Escape:
                         {
                             if (canCancel)
-                                return -1; 
+                                return -1;
                             break;
                         }
                 }
