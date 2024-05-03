@@ -99,6 +99,8 @@ namespace Shop_Menu
                 }
                 else
                 {
+                    // There are only 99 cent before  dollar
+                    number = Math.Round(number, 2);
                     break; 
                 }
             }
