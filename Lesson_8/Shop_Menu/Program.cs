@@ -8,6 +8,7 @@ namespace Shop_Menu
         static (string, decimal)[][] goods;
         static void Main(string[] args)
         {
+            // need to initialize for count cost on start
             goods = InitializeData();
 
             OpenMenu();
