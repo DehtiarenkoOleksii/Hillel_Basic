@@ -4,7 +4,7 @@ namespace Shop_Menu
 {
     internal class Program
     {
-        // global Tuple array, used decimal in cause prive may be not whole number 
+        // global Tuple array, used decimal in cause price may be not whole number 
         static (string, decimal)[][] goods;
         static void Main(string[] args)
         {
