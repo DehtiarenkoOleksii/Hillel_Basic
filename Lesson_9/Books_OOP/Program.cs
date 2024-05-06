@@ -66,8 +66,9 @@ namespace Books_OOP
             Console.Write("Author: ");
             string author = Console.ReadLine();
 
-            // used for year to, in cause decided that user like books which are wriiten only in our era)))
+           
             Console.Write("Year: ");
+            // same validation used for year to, in cause decided that user like books which are wriiten only in our era)))
             int year = ValidateInput("Please enter a valid year greater than 0: ");
 
             Console.Write("Count of pages: ");
@@ -99,7 +100,7 @@ namespace Books_OOP
             }
             return input;
         }
-        //Method which clear last line on the Console
+        //clear last line on the Console
         static void ClearLastLine()
         {
             {
