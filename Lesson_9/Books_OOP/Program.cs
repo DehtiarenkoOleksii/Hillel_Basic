@@ -21,10 +21,10 @@ namespace Books_OOP
         //        Pages = 350,
         //    };
         //    book1.DisplayInfo();
-        //    book1.IsThick();
+        //    book1.DisplayThick();
 
         //    book2.DisplayInfo();
-        //    book2.IsThick();
+        //    book2.DisplayThick();
         //}
 
         #endregion
@@ -66,7 +66,7 @@ namespace Books_OOP
             Console.Write("Author: ");
             string author = Console.ReadLine();
 
-           
+
             Console.Write("Year: ");
             // same validation used for year to, in cause decided that user like books which are wriiten only in our era)))
             int year = ValidateInput("Please enter a valid year greater than 0: ");
@@ -125,7 +125,7 @@ namespace Books_OOP
             foreach (var book in array)
             {
                 book.DisplayInfo();
-                book.IsThick();
+                book.DisplayThick();
             }
         }
         #endregion

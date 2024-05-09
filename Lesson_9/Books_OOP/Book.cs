@@ -16,20 +16,28 @@ namespace Books_OOP
         public int Year { get; set; }
         public int Pages { get; set; }
 
-
+        public string GetBookInfo()
+        {
+            return $"Title: {Title}\n" +
+                $"Author: {Author}\n" +
+                $"YearOfPublication: {Year}\n" +
+                $"NumberOfPages: {Pages}";
+        }
         // Display properties for class instance 
         public void DisplayInfo()
         {
-            Console.WriteLine(
-                $"Title: {Title}\n" +
-                $"Author: {Author}\n" +
-                $"Year: {Year}\n" +
-                $"Pages: {Pages}");
+            Console.WriteLine(GetBookInfo());
         }
+
         // Checks and display info about the thickness of the book
-        public void IsThick() 
+
+        public bool IsThick()
         {
-            Console.WriteLine($"This book is {(Pages > 500 ? "" : "not so")} thick\n");
+            return Pages > 500;
+        }
+        public void DisplayThick() 
+        {
+            Console.WriteLine ($"This book is {(IsThick() ? "" : "not so")} thick\n");
         }
     }
 }
