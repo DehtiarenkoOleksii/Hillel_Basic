@@ -53,9 +53,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop_Menu", "Lesson_8\Shop_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Books_OOP", "Lesson_9\Books_OOP\Books_OOP.csproj", "{7C8440E1-A707-49D1-8E1D-4806E115A8BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Person_OOP", "Lesson_10\Person_OOP\Person_OOP.csproj", "{AF3123EA-C690-438B-B1D9-0F84022C0B2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Person_OOP", "Lesson_10\Person_OOP\Person_OOP.csproj", "{AF3123EA-C690-438B-B1D9-0F84022C0B2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Your_Date", "Lesson_10\Your_Date\Your_Date.csproj", "{63478605-9C9E-4DD5-A66E-4FAD0945EDB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Your_Date", "Lesson_10\Your_Date\Your_Date.csproj", "{63478605-9C9E-4DD5-A66E-4FAD0945EDB6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UkrainianStringUtilsLib", "Lesson_11\UkrainianStringUtilites\UkrainianStringUtilsLib.csproj", "{215E7122-76B0-4295-BEBD-F06F2871B720}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UkrainianStringsDemo", "Lesson_11\UkrainianStringsDemo\UkrainianStringsDemo.csproj", "{8A66407D-3A85-4FCA-8973-876457015CAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "Lesson_11\ExceptionHandling\ExceptionHandling.csproj", "{E574CE7D-D4B3-42D7-A0FD-B3BD4DEE38BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +177,18 @@ Global
 		{63478605-9C9E-4DD5-A66E-4FAD0945EDB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63478605-9C9E-4DD5-A66E-4FAD0945EDB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63478605-9C9E-4DD5-A66E-4FAD0945EDB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{215E7122-76B0-4295-BEBD-F06F2871B720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{215E7122-76B0-4295-BEBD-F06F2871B720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{215E7122-76B0-4295-BEBD-F06F2871B720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{215E7122-76B0-4295-BEBD-F06F2871B720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A66407D-3A85-4FCA-8973-876457015CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A66407D-3A85-4FCA-8973-876457015CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A66407D-3A85-4FCA-8973-876457015CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A66407D-3A85-4FCA-8973-876457015CAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E574CE7D-D4B3-42D7-A0FD-B3BD4DEE38BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E574CE7D-D4B3-42D7-A0FD-B3BD4DEE38BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E574CE7D-D4B3-42D7-A0FD-B3BD4DEE38BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E574CE7D-D4B3-42D7-A0FD-B3BD4DEE38BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

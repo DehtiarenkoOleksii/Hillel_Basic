@@ -38,39 +38,48 @@ internal class Person
         return age >= 18;
     }
 
-    // Method for changing name for desiring 
-    public void ChangeName()
+    // Method for changing name for desiring
+    public void SetName(string newName)
     {
-        string answer;
-        // loop intil user desire what he/she wants
-        do
-        {
-            Console.WriteLine($"Do you want to change the name for {name}? (Y/N)");
-            answer = Console.ReadLine().Trim().ToUpper();
-
-            if (answer == "Y")
-            {
-                Console.WriteLine("Enter the new name:");
-                string newName = Console.ReadLine();
-
-                if (!string.IsNullOrEmpty(newName))
-                {
-                    name = newName;
-                    Console.WriteLine($"Name changed to: {name}");
-                    Console.WriteLine(GetPersonInfo());
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine("The name cannot be empty.");
-                }
-            }
-            else if (answer != "N")
-            {
-                Console.WriteLine("Invalid input. Please enter Y or N.");
-            }
-        } while (answer != "N");
+        name = newName;
     }
+
+    public string GetName()
+    {
+        return name;
+    }
+    //public void ChangeName()
+    //{
+    //    string answer;
+    //    // loop intil user desire what he/she wants
+    //    do
+    //    {
+    //        Console.WriteLine($"Do you want to change the name for {name}? (Y/N)");
+    //        answer = Console.ReadLine().Trim().ToUpper();
+
+    //        if (answer == "Y")
+    //        {
+    //            Console.WriteLine("Enter the new name:");
+    //            string newName = Console.ReadLine();
+
+    //            if (!string.IsNullOrEmpty(newName))
+    //            {
+    //                name = newName;
+    //                Console.WriteLine($"Name changed to: {name}");
+    //                Console.WriteLine(GetPersonInfo());
+    //                break;
+    //            }
+    //            else
+    //            {
+    //                Console.WriteLine("The name cannot be empty.");
+    //            }
+    //        }
+    //        else if (answer != "N")
+    //        {
+    //            Console.WriteLine("Invalid input. Please enter Y or N.");
+    //        }
+    //    } while (answer != "N");
+    //}
 
 
 }

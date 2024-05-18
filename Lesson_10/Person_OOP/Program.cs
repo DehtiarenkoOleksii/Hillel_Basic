@@ -1,4 +1,7 @@
-﻿namespace Person_OOP
+﻿using System;
+using System.Xml.Linq;
+
+namespace Person_OOP
 {
 
     internal class Program
@@ -24,7 +27,39 @@
         {
             Console.WriteLine(person.GetPersonInfo());
             DisplayAdult(person);
-            person.ChangeName();
+            ChangeName(person);
+        }
+        public static void ChangeName(Person person)
+        {
+            string answer;
+            // loop until user decides what they want
+            do
+            {
+                Console.WriteLine($"Do you want to change the name for {person.GetName()}? (Y/N)");
+                answer = Console.ReadLine().Trim().ToUpper();
+
+                if (answer == "Y")
+                {
+                    Console.WriteLine("Enter the new name:");
+                    string newName = Console.ReadLine();
+
+                    if (!string.IsNullOrEmpty(newName))
+                    {
+                        person.SetName(newName);
+                        Console.WriteLine($"Name changed to: {person.GetName()}");
+                        Console.WriteLine(person.GetPersonInfo());
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("The name cannot be empty.");
+                    }
+                }
+                else if (answer != "N")
+                {
+                    Console.WriteLine("Invalid input. Please enter Y or N.");
+                }
+            } while (answer != "N");
         }
 
     }
