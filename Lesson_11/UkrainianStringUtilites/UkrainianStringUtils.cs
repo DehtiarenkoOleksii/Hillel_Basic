@@ -97,9 +97,7 @@ namespace UkrainianStringUtilsLib
         /// </summary>
         public static string RemovePunctuation(string input)
         {
-            if (input == null)
-                throw new ArgumentNullException(nameof(input));
-            // regex replaces punctuation marks only according to reqs but if needed it can be complicated
+            // regex replaces punctuation marks only according to reqs but if needed it can be more complicated
             return Regex.Replace(input, @"\p{P}", "");
         }
     }
