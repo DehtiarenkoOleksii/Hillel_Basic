@@ -14,6 +14,9 @@
             PrintMovement(myCar);
             PrintMovement(myBicycle);
             PrintMovement(myTransport);
+
+            //Delay
+            Console.ReadKey();
         }
 
         public static void PrintMovement(Transport transport)
