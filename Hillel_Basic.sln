@@ -63,7 +63,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UkrainianStringsDemo", "Les
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionHandling", "Lesson_11\ExceptionHandling\ExceptionHandling.csproj", "{E574CE7D-D4B3-42D7-A0FD-B3BD4DEE38BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transport", "Lesson_12\Transport\Transport.csproj", "{77438973-1082-4690-A702-0DFAF80F1006}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Transport", "Lesson_12\Transport\Transport.csproj", "{77438973-1082-4690-A702-0DFAF80F1006}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank_System", "Lesson_13\Bank_System\Bank_System.csproj", "{781CF9B2-B6A7-4174-A4E1-72D756089E77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -195,6 +197,10 @@ Global
 		{77438973-1082-4690-A702-0DFAF80F1006}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77438973-1082-4690-A702-0DFAF80F1006}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77438973-1082-4690-A702-0DFAF80F1006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{781CF9B2-B6A7-4174-A4E1-72D756089E77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{781CF9B2-B6A7-4174-A4E1-72D756089E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{781CF9B2-B6A7-4174-A4E1-72D756089E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{781CF9B2-B6A7-4174-A4E1-72D756089E77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
