@@ -53,6 +53,7 @@
                 }
             }
         }
+
         // Fulfill data for new Saving acc
         static void CreateSavingsAccount(ref BankAccount[] accounts)
         {
@@ -67,6 +68,7 @@
             BankAccount newAccount = new SavingsAccount(name, balance, interestRate);
             accounts = AddAccount(accounts, newAccount);
         }
+
         // Fulfill data for new Checking acc
         static void CreateCheckingAccount(ref BankAccount[] accounts)
         {
@@ -81,6 +83,7 @@
             BankAccount newAccount = new CheckingAccount(name, balance, overdraftLimit);
             accounts = AddAccount(accounts, newAccount);
         }
+
         // Add new account to array
         public static BankAccount[] AddAccount(BankAccount[] array, BankAccount newAccount)
         {
@@ -110,6 +113,7 @@
 
             return number;
         }
+
         //clear last inputed line(useful for validation)
         public static void ClearLastLine()
         {
@@ -121,18 +125,21 @@
         // Method for navigation in already created accounts with some validation
         static BankAccount SelectAccount(BankAccount[] accounts)
         {
+            // check that we have at least one account
             if (accounts.Length == 0)
             {
                 Console.WriteLine("No accounts available.");
                 Console.ReadLine();
                 return null;
             }
-
+            // display accounts array
             for (int i = 0; i < accounts.Length; i++)
             {
                 Console.WriteLine($"{i}: {accounts[i].DisplayAccountInfo()}");
             }
 
+            // Validation for selecting account
+            // I've thought about extracting it on separate method but not decided it in cause in my mind it's more logic here
             while (true)
             {
                 Console.Write("Select account by number: ");
@@ -157,22 +164,24 @@
                 }
             }
         }
+
         // Print all accounts/selected account
         static void DisplayAccountInfo(BankAccount[] accounts)
         {
             Console.Clear();
-            // check that we have at least on account
+            // check that we have at least one account
             BankAccount account = SelectAccount(accounts);
             if (account == null) return;
 
             Console.WriteLine(account.DisplayAccountInfo());
             Console.ReadLine();
         }
+
         // increase amount on selected account
         static void Deposit(BankAccount[] accounts)
         {
             Console.Clear();
-            // check that we have at least on account
+            // check that we have at least one account
             BankAccount account = SelectAccount(accounts);
             if (account == null) return;
 
@@ -182,6 +191,7 @@
             Console.WriteLine(account.DisplayAccountInfo());
             Console.ReadKey();
         }
+
         // decrease amount on selected account if it's possible
         static void Withdraw(BankAccount[] accounts)
         {
@@ -196,7 +206,6 @@
             Console.WriteLine(account.DisplayAccountInfo());
             Console.ReadKey();
         }
-
 
     }
 
