@@ -168,6 +168,7 @@
             Console.WriteLine(account.DisplayAccountInfo());
             Console.ReadLine();
         }
+        // increase amount on selected account
         static void Deposit(BankAccount[] accounts)
         {
             Console.Clear();
@@ -181,6 +182,7 @@
             Console.WriteLine(account.DisplayAccountInfo());
             Console.ReadKey();
         }
+        // decrease amount on selected account if it's possible
         static void Withdraw(BankAccount[] accounts)
         {
             Console.Clear();
