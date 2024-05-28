@@ -65,7 +65,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExceptionHandling", "Lesson
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Transport", "Lesson_12\Transport\Transport.csproj", "{77438973-1082-4690-A702-0DFAF80F1006}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank_System", "Lesson_13\Bank_System\Bank_System.csproj", "{781CF9B2-B6A7-4174-A4E1-72D756089E77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bank_System", "Lesson_13\Bank_System\Bank_System.csproj", "{781CF9B2-B6A7-4174-A4E1-72D756089E77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Lesson_14\Interfaces\Interfaces.csproj", "{4F81B786-517D-4EF0-8B41-7E47401F0209}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging", "Lesson_14\Logging\Logging.csproj", "{B66F1E44-EB6A-4FC8-90B4-CE0A092D5E24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -201,6 +205,14 @@ Global
 		{781CF9B2-B6A7-4174-A4E1-72D756089E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{781CF9B2-B6A7-4174-A4E1-72D756089E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{781CF9B2-B6A7-4174-A4E1-72D756089E77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F81B786-517D-4EF0-8B41-7E47401F0209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F81B786-517D-4EF0-8B41-7E47401F0209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F81B786-517D-4EF0-8B41-7E47401F0209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F81B786-517D-4EF0-8B41-7E47401F0209}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B66F1E44-EB6A-4FC8-90B4-CE0A092D5E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B66F1E44-EB6A-4FC8-90B4-CE0A092D5E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B66F1E44-EB6A-4FC8-90B4-CE0A092D5E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B66F1E44-EB6A-4FC8-90B4-CE0A092D5E24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
