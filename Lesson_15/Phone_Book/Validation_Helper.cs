@@ -9,24 +9,6 @@ namespace Phone_Book
 {
     public static class Helper
     {
-        /// <summary>
-        /// Reads and validates a that input from the user for number will be in range 0-9
-        /// </summary>
-        public static int ReadChoice()
-        {
-            string userChoice;
-            while (true)
-            {
-                userChoice = Console.ReadLine();
-                bool isChoiceCorrect = Regex.Match(userChoice, @"^[0-9]$").Success;
-                if (isChoiceCorrect == false)
-                {
-                    ClearLastLine();
-                    Console.Write("Invalid phone number. Try again: ");
-                }
-                else return Convert.ToInt32(userChoice);
-            }
-        }
 
         /// <summary>
         /// Clears the last line of console
