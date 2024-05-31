@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Phone_Book
 {
-    public static class Helper
+    public static class Validation_Helper
     {
 
         /// <summary>

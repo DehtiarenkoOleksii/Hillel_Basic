@@ -56,7 +56,7 @@
             }
 
             Console.WriteLine("Enter the phone number:");
-            string phone = Helper.ReadPhoneNumber();
+            string phone = Validation_Helper.ReadPhoneNumber();
 
             contacts.Add(name, phone);
             Console.WriteLine("Contact added.");
@@ -91,7 +91,7 @@
             if (contacts.ContainsKey(name))
             {
                 Console.WriteLine("Enter the new phone number:");
-                string newPhone = Helper.ReadPhoneNumber();
+                string newPhone = Validation_Helper.ReadPhoneNumber();
                 contacts[name] = newPhone;
                 Console.WriteLine("Phone number updated.");
             }
