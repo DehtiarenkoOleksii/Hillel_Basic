@@ -23,6 +23,8 @@
             {
                 Console.WriteLine($"{product.Name}: {product.Price} грн");
             }
+            //Delay
+            Console.ReadKey();
         }
     }
 }

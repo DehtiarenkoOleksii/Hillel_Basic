@@ -14,6 +14,9 @@
             {
                 Console.WriteLine(number);
             }
+
+            //Delay
+            Console.ReadKey();
         }
     }
 }

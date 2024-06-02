@@ -15,6 +15,9 @@
             {
                 Console.Write(str + ", ");
             }
+
+            //Delay
+            Console.ReadKey();
         }
     }
 }

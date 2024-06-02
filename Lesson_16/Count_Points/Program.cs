@@ -10,6 +10,9 @@
             int count = marks.Count(m => m > 90);
 
             Console.WriteLine("Counts students which got more than 90 points " + count);
+
+            //Delay
+            Console.ReadKey();
         }
     }
 }

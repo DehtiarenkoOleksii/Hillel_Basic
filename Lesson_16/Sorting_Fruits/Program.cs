@@ -16,6 +16,9 @@
             {
                 Console.WriteLine(fruit);
             }
+
+            //Delay
+            Console.ReadKey();
         }
     }
 }

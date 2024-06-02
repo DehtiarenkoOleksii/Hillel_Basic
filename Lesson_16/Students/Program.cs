@@ -38,6 +38,9 @@
 
             var nameAndGradeList = ProjectNameAndGrade(students);
             nameAndGradeList.Print("Name and grade for every student:");
+
+            // Delay
+            Console.ReadKey();
         }
 
         //Фільтрація: Знайдіть усіх студентів, які мають оцінку більше або рівну 90.

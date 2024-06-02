@@ -18,6 +18,8 @@
             {
                 Console.WriteLine($"Max value by index: {maxNumberWithIndex.Value}, Index: {maxNumberWithIndex.Index}");
             }
+            //Delay
+            Console.ReadKey();
         }
         #endregion
         #region max value for cases where we don't need index
@@ -36,6 +38,8 @@
         //    {
         //        Console.WriteLine("List is empty or doesn't contain numbers");
         //    }
+        ////Delay
+        //Console.ReadKey();
         //}
         #endregion
     }
