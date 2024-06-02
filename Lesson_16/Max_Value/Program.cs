@@ -8,6 +8,13 @@
         {
             List<int> numbers = new List<int> { 10, 25, 8, 45, 15, 30, 55, 5 };
 
+            Console.WriteLine("Full list:");
+            foreach (var number in numbers)
+            {
+                Console.Write(number + " ");
+            }
+            Console.WriteLine();
+
             var maxNumberWithIndex = numbers
                 .Select((value, index) => new { Value = value, Index = index })
                 .OrderByDescending(x => x.Index)

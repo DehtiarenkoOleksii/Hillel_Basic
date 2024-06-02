@@ -8,6 +8,13 @@
             Console.OutputEncoding = System.Text.Encoding.Unicode;
             List<string> strings = new List<string> { "А", "Б", "В", "А", "Г", "В" };
 
+            Console.WriteLine("Повний список рядків:");
+            foreach (var str in strings)
+            {
+                Console.Write(str + ", ");
+            }
+            Console.WriteLine();
+
             var uniqueStrings = strings.Distinct();
 
             Console.WriteLine("Унікальні рядки:");

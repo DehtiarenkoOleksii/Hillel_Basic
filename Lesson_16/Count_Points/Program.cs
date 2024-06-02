@@ -7,6 +7,13 @@
         {
             List<int> marks = new List<int> { 85, 92, 78, 95, 88, 90 };
 
+            Console.Write("Full list: ");
+            foreach (var mark in marks)
+            {
+                Console.Write(mark + " ");
+            }
+            Console.WriteLine();
+
             int count = marks.Count(m => m > 90);
 
             Console.WriteLine("Counts students which got more than 90 points " + count);

@@ -14,6 +14,14 @@
             new Product { Name = "Товар5", Price = 49.99m }
         };
 
+            Console.WriteLine("Початковий список товарів:");
+            foreach (var product in products)
+            {
+                Console.WriteLine($"{product.Name}: {product.Price} грн");
+            }
+            Console.WriteLine();
+
+
             var filteredAndSortedProducts = products
                 .Where(p => p.Price < 50)
                 .OrderBy(p => p.Price);
