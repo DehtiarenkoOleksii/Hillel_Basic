@@ -13,7 +13,7 @@
             new Product { Name = "Товар4", Price = 25 },
             new Product { Name = "Товар5", Price = 49.99m }
         };
-
+            // Full list print
             Console.WriteLine("Початковий список товарів:");
             foreach (var product in products)
             {

@@ -8,6 +8,7 @@
         {
             List<int> numbers = new List<int> { 10, 25, 8, 45, 15, 30, 55, 5 };
 
+            // Full list print
             Console.WriteLine("Full list:");
             foreach (var number in numbers)
             {

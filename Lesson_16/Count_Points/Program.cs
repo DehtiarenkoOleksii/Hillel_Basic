@@ -7,6 +7,7 @@
         {
             List<int> marks = new List<int> { 85, 92, 78, 95, 88, 90 };
 
+            // Full list print
             Console.Write("Full list: ");
             foreach (var mark in marks)
             {

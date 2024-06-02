@@ -9,6 +9,7 @@
 
             var filteredNumbers = numbers.Where(n => n > 10);
 
+            // Full list print
             Console.WriteLine("Числа більше 10:");
             foreach (var number in filteredNumbers)
             {
